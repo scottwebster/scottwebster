@@ -1,0 +1,10 @@
+/* TEAM */
+  Design: Kenrick Turner
+  Twitter: @kenrick
+  Site: http://kenners.org
+  Location: London
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Zurb Foundation, jQuery, Orbit, Reveal
+  Software: Atom, Git
