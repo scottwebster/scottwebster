@@ -1,6 +1,28 @@
-<footer class="site-footer">
-  <p>&copy; 2004 - {{ site.time | date: "%Y"}} {{site.title}}</p>
+<footer class="row">
+  <hr>
+  <div class="show-for-large-up">
+    <div class="large-5 columns">
+      <p>&copy; {{ site.time | date: "%Y"}} {{site.title}}</p>
+    </div>
+    <div class="large-2 columns">
+      <img src="{{ "/img/logo/logo_black.svg" | prepend: site.baseurl }}" width="50px" class="img-center">
+    </div>
+    <div class="large-5 columns">
+      <p class="text-right">Email: <a href="mailto:{{site.email}}">{{site.email}}</a> &middot; Phone: {{site.phone}}</p>
+    </div>
+  </div>
+  <div class="hidden-for-large-up">
+    <div class="large-12 columns">
+      <img src="{{ "/img/logo/logo_black.svg" | prepend: site.baseurl }}" width="50px" class="img-center">
+    </div>
+    <div class="large-12 columns">
+      <p class="text-center">Email: <a href="mailto:{{site.email}}">{{site.email}}</a> &middot; Phone: {{site.phone}}</p>
+    </div>
+  </div>
 </footer>
 <!-- More scripts -->
 <script src="{{ "/js/vendor/jquery.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+<script>
+  $(document).foundation();
+</script>

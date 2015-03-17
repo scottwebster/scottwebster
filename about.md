@@ -1,10 +1,11 @@
 ---
 layout: page
-title: About
+title: About Scott
 permalink: /about/
+show_in_nav: true
 ---
 
-<img src="{{ "/img/mugshot.jpg" | prepend: site.baseurl }}" width="200" class="polaroid hide-for-small">
+<img src="{{ "/img/mugshot-1024.jpg" | prepend: site.baseurl }}" width="200" class="polaroid hide-for-small">
 
 Scott Webster is a professional moutaineering instructor with extensive Alpine and Antarctic experience.
 
