@@ -1,23 +1,30 @@
 ---
 layout: default
+hero_big: true
 ---
 
 <div class="small-8 large-4 small-centered large-uncentered columns">
-
-  <img src="{{ "/img/mugshot-512.jpg" | prepend: site.baseurl }}" class="circle-image img-center">
-  <h3 class="text-center">About Scott</h3>
+  <a href="{{ "/about" | prepend: site.baseurl }}"><img src="{{ "/img/mugshot-512.jpg" | prepend: site.baseurl }}" class="circle-image img-center th"></a>
+  <h3 class="text-center no-header-highlight"><a href="{{ "/about" | prepend: site.baseurl }}">About Scott</a></h3>
   <p>Scott Webster is a professional moutaineering instructor with extensive Alpine and Antarctic experience. He holds a <a href="http://www.mountain-training.org/award-schemes/mia">Mountain Instructor Award</a> qualification.</p>
   <p>In addition to freelance guiding throughout Scotland, Scott has overwintered twice in Antarctica with the <a href="http://www.antarctica.ac.uk">British Antarctic Survey</a>, leading scientific and logistic parties in some of the most remote and hostile regions of the continent.</p>
+  <h4>Latest updates</h4>
+  <ul>
+    {% for post in site.categories.blog limit:5 %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
   </div>
 <div class="small-8 large-4 small-centered large-uncentered columns">
-  <img src="{{ "/img/exped.jpg" | prepend: site.baseurl }}" class="circle-image img-center">
-  <h3 class="text-center">Expeditions</h3>
+  <a href="{{ "/exped" | prepend: site.baseurl }}"><img src="{{ "/img/exped.jpg" | prepend: site.baseurl }}" class="circle-image img-center th"></a>
+  <h3 class="text-center no-header-highlight"><a href="{{ "/exped" | prepend: site.baseurl }}">Expeditions</a></h3>
   <p>Scott has led expeditions throughout the UK, Europe, North America, and Antarctica, ranging from individual guiding daytrips to month-long scientific explorations supported by aircraft.</p>
   <p>Career highlights include a first ascent of a remote peak in the Marble Hills, part of the Ellsworth Mountains in Antarctica, and summitting Denali in North America.</p>
   <p>Scott's latest expedition is an overland trip to Central Asia with the aim of climbing Khan Tengri in the Tien Shan range of Kyrgyzstan.</p>
 </div>
 <div class="small-8 large-4 small-centered large-uncentered columns">
-  <h3 class="text-center">Services</h3>
+  <a href="{{ "/services" | prepend: site.baseurl }}"><img src="{{ "/img/services.jpg" | prepend: site.baseurl }}" class="circle-image img-center th"></a>
+  <h3 class="text-center no-header-highlight"><a href="{{ "/services" | prepend: site.baseurl }}">Services</a></h3>
   <p>Scott is an enthusiastic and approachable instructor, who enjoys introducing people to the outdoors. He offers taster sessions for climbing and hillwalking, through to instruction in more advanced skills such as self-rescue techniques and lead climbing.</p>
   <p>As a mountaineering instructor and Winter ML holder, Scott is qualified to provide sessions in the following activities:</p>
   <ul>

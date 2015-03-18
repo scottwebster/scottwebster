@@ -1,34 +1,17 @@
 <header>
-<div class="contain-to-grid">
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="{{ site.baseurl }}/"><img src="{{ "/img/logo/logo_white.svg" | prepend: site.baseurl }}" width="50px"></a></h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-    </ul>
-    <section class="top-bar-section">
-      <ul class="right">
-        {% for page in site.pages %}
-        {% if page.title and page.show_in_nav == true %}
-        <li class="text-center"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-      <!--<li class="has-dropdown">
-        <a href="/foo">Foo</a>
-        <ul class="dropdown">
-          <li><a href="/foo/child">Child</a></li>
-        </ul>
-      </li>-->
-    </section>
-  </nav>
-</div>
-  <div class="home-hero">
+  {% include nav.html %}
+
+  <div class="hide-for-small hero {% if page.hero_big == true %}hero-big{% endif %}" {% if page.hero_background %}style="background: url({{ page.hero_background | prepend: site.baseurl }}) no-repeat top #2b2b2b; background-attachment: fixed; background-size: 1700px auto;"{% endif %}>
     <div class="row">
       <div class="medium-8 small-centered columns">
-        <h1 class="text-center">{{site.title}}</h1>
+        <h1 class="text-center"><a href="{{ site.url }}">{{site.title}}</a></h1>
       </div>
+    </div>
+  </div>
+  <div class="show-for-small row small-header">
+    <div class="small-12 small-centered columns">
+      <img class="img-center" src="{{ "/img/logo/logo_white.svg" | prepend: site.baseurl }}" width="250">
+      <h1 class="text-center">{{site.title}}</h1>
     </div>
   </div>
 </header>

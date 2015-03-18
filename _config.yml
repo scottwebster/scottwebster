@@ -1,17 +1,17 @@
 # Site settings
 title: Scott Webster Mountaineering
 email: "scott_webster@ymail.com"
-phone: "+44 (0)7775 664 642"
+phone: "+44 7775 664 642"
 description: > # this means to ignore newlines until "baseurl:"
-  TODO Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: //localhost:4000
+  Scott Webster is a professional moutaineering instructor with extensive Alpine and Antarctic experience, who offers freelance mountain guiding and climbing.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: //scottwebster.co.uk
 #url: "http://scottwebster.co.uk" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+except_separator: "\n\n"
 
 timezone: Europe/London
 

@@ -1,0 +1,9 @@
+{% assign url_parts = page.url | remove: "/index.html" | split:"/" %}
+{% assign previous = site.siteurl %}
+<ul class = "breadcrumbs">
+  <li><a href="{{site.url}}">Home</a></li>
+  {% for item in url_parts offset:1 %}
+  {% capture previous %}{{previous}}/{{item}}{% endcapture %}
+  <li {% if forloop.last %}class="current"{% endif %}><a href="{{ previous }}">{{ item }}</a></li>
+  {% endfor %}
+</ul>

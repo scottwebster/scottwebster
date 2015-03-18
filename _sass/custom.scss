@@ -16,10 +16,30 @@
   margin-right: auto;
 }
 
+.no-header-highlight a {
+  color: $header-font-color;
+}
+
+.subdue {
+  color: $monsoon;
+  font-size: 80%;
+}
+
+.cth {
+  @include thumb(
+    // Width of border around thumbnail
+    $border-width: 2px,
+    // Box shadow to apply to thumbnail
+    $box-shadow: 0 0 0 1px rgba(#000,.2),
+    // Box shadow to apply on hover
+    $box-shadow-hover: 0
+  );
+}
+
 /**
  * HERO
  */
-.home-hero {
+.hero {
   background: url(/img/hero/hero-6.jpg) no-repeat top #2b2b2b;
   box-shadow: inset 0 0 30px rgba(0,0,0,.90);
   background-attachment: fixed;
@@ -31,39 +51,57 @@
   /*background-size: cover;*/
   color: #fafafa;
   text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.4) 0px 3px 4px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   letter-spacing: 0.1em;
 }
 
-.home-hero h1 {
+.hero h1 {
   color: #fafafa;
   margin-top: 50px;
-  margin-bottom: 150px;
-  font-size: rem-calc(50);
+  font-size: rem-calc(40);
   /*font-weight: normal;*/
   line-height: 1.1;
   text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.hero a {
+  color: #fafafa;
 }
 
 @media #{$large-up} {
-  .home-hero h1 {
+  .hero h1 {
     font-size: rem-calc(70);
   }
 }
 
+.hero-big h1{
+  margin-bottom: 150px;
+}
 
-
-.home-hero a {
+.hero a {
   transition: color 0.25s ease-in;
   -webkit-transition: color 0.25s ease-in;
 }
 
-.home-hero a:hover {
+.hero a:hover {
   color: #ccc;
 }
 
+.small-header {
+  text-transform: uppercase;
+  background: #0268BC;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  box-shadow: inset 0 0 30px rgba(0,0,0,.90);
+}
+
+.small-header h1 {
+  color: #fafafa;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 3px;
+}
 
 /**
  * FOOTER

@@ -1,0 +1,30 @@
+---
+layout: exped
+title: Blog
+permalink: /blog/
+weight: 2
+hero_background: /img/hero/blog.jpg
+---
+
+<div class="row">
+  <div class="medium-8 columns">
+    {% for post in site.categories.blog limit:10 %}
+    <article id="{{post.id}}">
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+       <p class="subdue"> <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M%z" }}">{{ post.date | date: "%-d %B %Y" }}</time></p>
+      <div>
+        {{ post.content }}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="medium-4 columns">
+    <p class="subdue">The latest news and updates from Scott.</p>
+    <h4>Previously</h4>
+    <ul class="side-nav">
+      {% for post in site.categories.blog %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

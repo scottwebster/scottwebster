@@ -2,7 +2,8 @@
 layout: page
 title: About Scott
 permalink: /about/
-show_in_nav: true
+weight: 1
+hero_background: /img/hero/about.jpg
 ---
 
 <img src="{{ "/img/mugshot-1024.jpg" | prepend: site.baseurl }}" width="200" class="polaroid hide-for-small">
@@ -19,7 +20,19 @@ Recreational mountaineering has taken Scott all over the UK, the French and Swis
 
 Scott is available to run courses in all areas of mountaineering and climbing as well as leading overseas expeditions.
 
+<div class="panel row">
+  <div class="medium-4 columns">
+  <a href="http://www.ami.org.uk"><img src="{{ "/img/logo/ami-logo.png" | prepend: site.baseurl }}" width="150px" alt="Association of Mountaineering Instructors logo" class="img-center"></a>
+  </div>
+  <div class="medium-8 columns">
+    <h5>Association of Mountaineering Instructors</h5>
+    <p>Scott is a full member of the <a href="http://www.ami.org.uk">Association of Mountaineering Instructors</a>, the representative body for professionally qualified Mountaineering Instructors in the UK and Ireland.</p>
+  </div>
+</div>
+
 ### Qualifications
+
+Scott holds the following qualifications:
 
 * [Mountain Instructor Award](http://www.mountain-training.org/award-schemes/mia)
 * [Winter Mountain Leader](http://www.mountain-training.org/award-schemes/winter-mountain-leader-award)
