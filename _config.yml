@@ -19,5 +19,5 @@ exclude: ['_templates']
 permalink: /exped/:categories/:title
 
 sass:
-    style: :expanded
-    #style: :compressed
+    #style: :expanded
+    style: :compressed
