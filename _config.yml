@@ -19,5 +19,4 @@ exclude: ['_templates','README.md']
 permalink: /exped/:categories/:title
 
 sass:
-    #style: :expanded
-    style: :compressed
+  style: :compressed
