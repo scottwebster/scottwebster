@@ -20,3 +20,6 @@ permalink: /exped/:categories/:title
 
 sass:
   style: :compressed
+
+gems:
+  - jekyll-sitemap
