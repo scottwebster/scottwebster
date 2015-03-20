@@ -1460,7 +1460,7 @@ $topbar-link-font-size: rem-calc(18);
 // $topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
 // $topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
-$topbar-media-query: $large-up;
+$topbar-media-query: $medium-up;
 
 // Top-bar input styles
 // $topbar-input-height: rem-calc(28);
