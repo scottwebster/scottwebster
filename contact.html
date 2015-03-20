@@ -10,12 +10,14 @@ hero_background: /img/hero/contact.jpg
 
 <p> He can easily be reached by either email or phone:</p>
 
-<ul class="vcard">
-  <li class="fn">Scott Webster</li>
-  <!--<li class="street-address"></li>
-  <li class="locality"></li>
-  <li class="state"></li>
-  <li class="zip"></li>-->
-  <li class="phone">{{site.phone}}</li>
-  <li class="email"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
+<div itemscope itemtype="http://schema.org/Person">
+  <ul class="vcard">
+    <li class="fn" itemprop="name">Scott Webster</li>
+    <!--<li class="street-address"></li>
+    <li class="locality"></li>
+    <li class="state"></li>
+    <li class="zip"></li>-->
+    <li class="phone" itemprop="telephone">{{site.phone}}</li>
+    <li class="email" itemprop="email"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 </ul>
+</div>
