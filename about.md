@@ -34,10 +34,10 @@ Scott is available to run courses in all areas of mountaineering and climbing as
 
 Scott holds the following qualifications:
 
-* [Mountain Instructor Award](http://www.mountain-training.org/award-schemes/mia)
-* [Winter Mountain Leader](http://www.mountain-training.org/award-schemes/winter-mountain-leader-award)
-* [Mountain Leader](http://www.mountain-training.org/award-schemes/mountain-leader-award)
-* [Single Pitch Award](http://www.mountain-training.org/award-schemes/single-pitch-award)
+* [Mountain Instructor Award](http://www.mountain-training.org/mountaineering/awards/mountaineering-instructor-award)
+* [Winter Mountain Leader](http://www.mountain-training.org/walking/skills-and-awards/winter-mountain-leader)
+* [Mountain Leader](http://www.mountain-training.org/walking/skills-and-awards/mountain-leader)
+* [Single Pitch Award](http://www.mountain-training.org/climbing/awards/single-pitch-award)
 * [WEMSI First Responder](http://www.wemsi-international.org/index.php/wilderness-first-responder)
 * [Swift Water Rescue Technician](http://www.rescue3.co.uk/srt.htm)
 * [BA Hons Management with Marketing](http://www.rgu.ac.uk/business-management-and-accounting/study-options/undergraduate/management-with-marketing)
