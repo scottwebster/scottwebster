@@ -15,7 +15,7 @@ except_separator: "\n\n"
 
 timezone: Europe/London
 
-exclude: ['_templates','README.md']
+exclude: ['_templates','README.md','.travis.yml','vendor']
 permalink: /exped/:categories/:title
 
 sass:
