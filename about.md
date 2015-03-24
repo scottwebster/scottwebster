@@ -6,7 +6,7 @@ weight: 1
 hero_background: /img/hero/about.jpg
 ---
 
-<img src="{{ "/img/mugshot-1024.jpg" | prepend: site.baseurl }}" width="200" class="polaroid hide-for-small">
+<img src="{{ "/img/mugshot-1024.jpg" | prepend: site.baseurl }}" alt="Photo of Scott Webster" width="200" class="polaroid hide-for-small">
 
 Scott Webster is a professional moutaineering instructor with extensive Alpine and Antarctic experience.
 
