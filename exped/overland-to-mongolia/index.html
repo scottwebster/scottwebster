@@ -26,6 +26,16 @@ hero_background: /img/hero/sighing-peak.jpg
     </div>
   </div>
 </div>
+<!-- Begin hack for map -->
+</div></div>
+
+{% assign map_posts = site.categories.overland-to-mongolia %}
+{% include map.html %}
+
+<div class="row">
+  <div class="medium-offset-2 medium-8 columns">
+<!-- End hack for map -->
+
 <div class="row">
   <div class="medium-8 columns">
     {% for post in site.categories.overland-to-mongolia limit:10 %}
