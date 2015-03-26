@@ -1,9 +1,13 @@
 language: ruby
 rvm:
 - 2.1
+install:
+ - pip install html5validator
+
 script:
 - bundle exec jekyll build
-- bundle exec htmlproof ./_site --only-4xx --check-html --check-favicon --href-ignore "#" --verbose
+- bundle exec htmlproof ./_site --only-4xx --check-favicon --href-ignore "#" --verbose
+- html5validator
 
 # branch whitelist
 #branches:
