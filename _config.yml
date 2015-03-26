@@ -11,7 +11,7 @@ url: http://www.scottwebster.co.uk
 # Build settings
 markdown: kramdown
 
-except_separator: "\n\n"
+excerpt_separator: "\n\n"
 
 timezone: Europe/London
 
