@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{{ "/css/leaflet.css" | prepend: site.baseurl }}">
 <div id="map"></div>
 <script>
+//<![CDATA[
 function onEachFeature(feature, layer) {
   // does this feature have a property named popupContent?
   if (feature.properties && feature.properties.name) {
@@ -43,4 +44,5 @@ map.addLayer(geoLayer);
 map.addLayer(track);
 map.fitBounds(geoLayer.getBounds());
 map.setZoom(3);
+//]]>
 </script>
