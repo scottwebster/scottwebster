@@ -1,8 +1,9 @@
 language: ruby
 rvm:
 - 2.1
+
 install:
- - pip install html5validator
+ - sudo pip install html5validator
 
 script:
 - bundle exec jekyll build
