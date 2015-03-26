@@ -1,7 +1,9 @@
 language: ruby
 rvm:
 - 2.1
-script: jekyll build && htmlproof ./_site --check-html --check-favicon --href-ignore "#" --verbose
+script:
+- bundle exec jekyll build
+- bundle exec htmlproof ./_site --only-4xx --check-html --check-favicon --href-ignore "#" --verbose
 
 # branch whitelist
 #branches:
