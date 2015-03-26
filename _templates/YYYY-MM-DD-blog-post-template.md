@@ -2,8 +2,8 @@
 layout: post
 title: "Your title here"
 date: YYYY-MM-DD HH:MM
-categories: blog # or 'antarctica' or 'overland-to-mongolia'
-location: "-67,-68" # Lat and lon in dd.dddd format. + for North/East, - for South/West
+category: blog # or 'antarctica' or 'overland-to-mongolia'
+location: "0,0" # Longitude then latitude in dd.dddd format. + for North/East, - for South/West. Delete entirely for post to not appear on map.
 ---
 
 Copy this file into the _posts directory and rename it appropriately. The following text serves as a quick reference for common Markdown elements, but you'll want to delete this stuff before committing!
@@ -46,19 +46,19 @@ A simple single photo:
 
 More complicated photo gallery and lightbox:
 
-<ul class="clearing-thumbs" data-clearing>
+<ul class="small-block-grid-3 clearing-thumbs block-grid" data-clearing>
   <li>
-    <a href="/photos/your-post-title/photo-1.jpg">
+    <a class="th" href="/photos/your-post-title/photo-1.jpg">
       <img src="/photos/your-post-title/photo-1.jpg" alt="Alt text here" data-caption="Your caption here">
     </a>
   </li>
   <li>
-    <a href="/photos/your-post-title/photo-2.jpg">
+    <a class="th" href="/photos/your-post-title/photo-2.jpg">
       <img src="/photos/your-post-title/photo-2.jpg" alt="Alt text here" data-caption="Your caption here">
     </a>
   </li>
   <li>
-    <a href="/photos/your-post-title/photo-3.jpg">
+    <a class="th" href="/photos/your-post-title/photo-3.jpg">
       <img src="/photos/your-post-title/photo-3.jpg" alt="Alt text here" data-caption="Your caption here">
     </a>
   </li>
