@@ -10,10 +10,7 @@ hero_background: /img/hero/sighing-peak.jpg
 {% for exped in expeds %}
   <li>
     <a href="{{ "/exped/" | prepend: site.baseurl | append: exped.name }}">
-      <img class="circle-image img-center th" data-interchange="[{{ exped.image | prepend: site.baseurl }}, (default)], [{{ exped.image-2x | prepend: site.baseurl }}, (retina)]" alt="Photo of {{ exped.name }}">
-      <noscript>
-        <img class="circle-image img-center th" src="{{ exped.image | prepend: site.baseurl }}" alt="Photo of {{ exped.name }}">
-      </noscript>
+      <img class="circle-image img-center th" src="{{ exped.image | prepend: site.baseurl }}" srcset="{{ exped.image-2x | prepend: site.baseurl }} 2x" alt="Photo of {{ exped.name }}">
       <h4 class="text-center">{{ exped.title  }}</h4>
     </a>
     <p class="text-justify">{{ exped.excerpt}}</p>
