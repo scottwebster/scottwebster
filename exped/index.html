@@ -8,6 +8,15 @@ hero_background: /img/hero/sighing-peak.jpg
 <ul class="small-block-grid-1 large-block-grid-2">
 {% assign expeds = site.data.expeds | sort: "weight"  %}
 {% for exped in expeds %}
-  <li><a href="{{ "/exped/" | prepend: site.baseurl | append: exped.name }}"><img class="circle-image img-center th" src="{{ exped.image | prepend: site.baseurl }}" alt="Photo of {{ exped.name }}" width="200"><h4 class="text-center">{{ exped.title  }}</h4></a><p class="text-justify">{{ exped.excerpt}}</p></li>
+  <li>
+    <a href="{{ "/exped/" | prepend: site.baseurl | append: exped.name }}">
+      <img class="circle-image img-center th" data-interchange="[{{ exped.image | prepend: site.baseurl }}, (default)], [{{ exped.image-2x | prepend: site.baseurl }}, (retina)]" alt="Photo of {{ exped.name }}">
+      <noscript>
+        <img class="circle-image img-center th" src="{{ exped.image | prepend: site.baseurl }}" alt="Photo of {{ exped.name }}">
+      </noscript>
+      <h4 class="text-center">{{ exped.title  }}</h4>
+    </a>
+    <p class="text-justify">{{ exped.excerpt}}</p>
+  </li>
 {% endfor %}
 </ul>
