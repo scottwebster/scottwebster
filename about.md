@@ -22,7 +22,7 @@ Scott is available to run courses in all areas of mountaineering and climbing as
 
 <div class="panel row">
   <div class="medium-4 columns">
-  <a href="http://www.ami.org.uk"><img src="{{ "/img/logo/ami-logo.svg" | prepend: site.baseurl }}" width="150px" alt="Association of Mountaineering Instructors logo" class="img-center"></a>
+  <a href="http://www.ami.org.uk"><img src="{{ "/img/logo/ami-logo.svg" | prepend: site.baseurl }}" width="150" alt="Association of Mountaineering Instructors logo" class="img-center"></a>
   </div>
   <div class="medium-8 columns">
     <h5>Association of Mountaineering Instructors</h5>

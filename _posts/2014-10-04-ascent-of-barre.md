@@ -3,7 +3,7 @@ layout: post
 title: "Ascent of Mount Barre"
 date:  2014-10-04 18:46:00
 categories: antarctica
-location: "-67,-68"
+location: "-68,-67"
 ---
 
 Mount Barre is one of three large peaks that make up the Princess Royal Range in Antarctica. Liotard, Gaudry and Barre dominate the horizon to the West of Rothera research station, towering above Ryder Bay. Although only a little over 2000m in height these peaks stretch down to sea level giving them a similar vertical relief to that of larger mountains elsewhere that start on high plateaus.
