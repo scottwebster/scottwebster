@@ -4,11 +4,12 @@ rvm:
 
 install:
  - sudo pip install html5validator
+ - bundle
 
 script:
 - bundle exec jekyll build
 - bundle exec htmlproof ./_site --only-4xx --check-favicon --href-ignore "#" --verbose
-- html5validator
+- html5validator --root ./_site
 
 # branch whitelist
 #branches:
