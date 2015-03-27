@@ -3,6 +3,7 @@
   output: true
   weight: 2
   image: /img/exped/antarctica.jpg
+  image-2x: /img/exped/antarctica-2x.jpg
   permalink: /exped/:collection/:name/
   excerpt:  Scott has spent 3 years working for the British Antarctic Survey (BAS) as a field guide, including two Antarctic winters. He was responsible for a number of scientific projects, from geology work in the Ellsworth Mountains to radar work on the continental ice shelves.
   description: Scott has spent 3 years working for the British Antarctic Survey (BAS) as a field guide, including two Antarctic winters. During this time Scott was responsible for the logistics and safety of a number of different scientific projects, ranging from geology work in the Ellsworth Mountains to radar work on the continental ice shelves. In Scott’s second season with BAS he was appointed as Lead Field Guide and was responsible for a team of three others.  In addition to these roles, Scott managed the search and rescue capabilities and mountaineering training program run out of Rothera Research Station.
@@ -10,6 +11,7 @@
   title: Overland to Mongolia
   weight: 1
   image: /img/exped/mongol.jpg
+  image-2x: /img/exped/mongol-2x.jpg
   permalink: /exped/:collection/:name/
   excerpt: Scott and his girlfriend Mairi are undertaking an overland mountaineering journey from Scotland to Kyrgyzstan, aiming to climb Khan Tengri (7010m), one of the most beautiful mountains in the world.
   description: In 2015 Scott and girlfriend Mairi are undertaking an overland mountaineering adventure. The expedition will start in Scotland and will take Scott and Mairi through 15 different countries before arriving in Kyrgyzstan where they will fly into the Inylchek Glacier to attempt Khan Tengri (7010m), widely considered to be one of the most beautiful mountains in the world!  After this the journey will continue through Kazakhstan and Russia to Mongolia where Scott and Mairi plan to explore the Altai Mountains, right on the border between Russia, China, Kazakhstan and Mongolia. The Altai’s are similar in stature to the European Alps but very remote and largely unexplored.  The final leg of the journey will take the team through Northern Kazakhstan and Siberian Russia back to Europe.
