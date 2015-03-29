@@ -2,11 +2,12 @@
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">{% endif %}
   <title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
   <!-- Styles -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link href="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css" rel="stylesheet">
   <!-- Scripts (more in footer) -->
   <script src="{{ "/js/vendor/modernizr.js" | prepend: site.baseurl }}"></script>
   <!-- Icons -->
