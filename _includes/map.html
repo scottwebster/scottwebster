@@ -2,9 +2,7 @@
 <div id="map"></div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1Ijoia2VubmVycyIsImEiOiJPbXVUQXRvIn0.6a_FEpmmTh0HEBTezlMW1w';
-var map = L.mapbox.map('map');
-// Load tiles asynchronously
-var layer = L.mapbox.tileLayer('kenners.li8o2424', {format: 'jpg70'}}).addTo(map);
+var map = L.mapbox.map('map', 'kenners.li8o2424', {tileLayer: {format: 'jpg70'}});
 map.scrollWheelZoom.disable();
 // Create posts
 var geoJson = {"type":"FeatureCollection",
@@ -30,7 +28,7 @@ featureLayer.eachLayer(function(layer) {
 // Create track
 var track = L.polyline([{% for post in map_posts %} L.GeoJSON.coordsToLatLng([{{post.location}}], true){% if forloop.last == false %},{% endif %}{% endfor %}], {color: 'red', opacity: 0.7}).addTo(map);
 
-map.fitBounds(featureLayer.getBounds(), {padding: [50,50]});
+map.fitBounds(featureLayer.getBounds(), {padding: [40,40]});
 // If we've only got one feature, lets not zoom in too far.
 if (geoJson.features.length < 2) {
   map.setZoom(3);
