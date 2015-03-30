@@ -23,3 +23,5 @@ sass:
 
 gems:
   - jekyll-sitemap
+
+mapbox-api-key: pk.eyJ1Ijoia2VubmVycyIsImEiOiJPbXVUQXRvIn0.6a_FEpmmTh0HEBTezlMW1w

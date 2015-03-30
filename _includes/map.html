@@ -1,29 +1,16 @@
-<script src="{{ "/js/vendor/leaflet.js" | prepend: site.baseurl }}"></script>
-<script src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
 <div id="map"></div>
 <script>
-function onEachFeature(feature, layer) {
-  // does this feature have a property named popupContent?
-  if (feature.properties && feature.properties.name) {
-      var content = '<p><strong><a href="'+feature.properties.url+'">'+feature.properties.name+'</a></strong></p>\n<p class="subdue"><em>'+feature.properties.date+'</em><br>'+feature.properties.content+'<br><a href="'+feature.properties.url+'">&raquo; Read more</a></p>';
-      layer.bindPopup(content);
-  }
-};
-
-var map = L.map('map',{scrollWheelZoom: false});
-
-L.Icon.Default.imagePath = '{{ "/img/leaflet/" | prepend: site.baseurl }}';
-var watercolor = new L.StamenTileLayer("watercolor", {
-  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
-});
-
+L.mapbox.accessToken = '{{ site.mapbox-api-key }}';
+var map = L.mapbox.map('map', 'kenners.li8o2424');
+map.scrollWheelZoom.disable();
 // Create posts
-var foo = L.geoJson();
-var contentGeoJson = [{"type":"FeatureCollection",
+var geoJson = {"type":"FeatureCollection",
                         "features":[{% for post in map_posts %}{"type":"Feature",
                         "properties":{
                           "name": "{{post.title}}",
-                          "marker-color": "#2A2B26",
+                          "marker-color": "#548cba",
+                          "marker-symbol": "star",
                           "date": "{{post.date | date: "%-d %B %Y" }}",
                           "url": "{{ post.url | prepend: site.baseurl }}",
                           "content": "{{ post.content | strip_html | truncatewords: 50}}",
@@ -32,14 +19,18 @@ var contentGeoJson = [{"type":"FeatureCollection",
                           "type":"Point",
                           "coordinates":[{{post.location}}]
                           }
-                        }{% if forloop.last == false %},{% endif %}{% endfor %}]}];
+                        }{% if forloop.last == false %},{% endif %}{% endfor %}]};
+var featureLayer = L.mapbox.featureLayer(geoJson).addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '<h3><a href="'+layer.feature.properties.url+'">'+layer.feature.properties.name+'<\/a><\/h3>\n<p><em>'+layer.feature.properties.date+'<\/em><\/p>\n<p>'+layer.feature.properties.content+'<\/p>\n<p><a href="'+layer.feature.properties.url+'">&raquo; Read more<\/a><\/p>';
+    layer.bindPopup(content);
+});
 // Create track
-var track = L.polyline([{% for post in map_posts %} L.GeoJSON.coordsToLatLng([{{post.location}}], true){% if forloop.last == false %},{% endif %}{% endfor %}], {color: 'red', opacity: 0.8});
-var geoLayer = L.geoJson(contentGeoJson, {onEachFeature: onEachFeature});
-// Display layer
-map.addLayer(watercolor);
-map.addLayer(geoLayer);
-map.addLayer(track);
-map.fitBounds(geoLayer.getBounds());
-map.setZoom(3);
+var track = L.polyline([{% for post in map_posts %} L.GeoJSON.coordsToLatLng([{{post.location}}], true){% if forloop.last == false %},{% endif %}{% endfor %}], {color: 'red', opacity: 0.7}).addTo(map);
+
+map.fitBounds(featureLayer.getBounds(), {padding: [40,40]});
+// If we've only got one feature, lets not zoom in too far.
+if (geoJson.features.length < 2) {
+  map.setZoom(3);
+}
 </script>
