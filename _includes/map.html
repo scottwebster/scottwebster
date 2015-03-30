@@ -2,7 +2,7 @@
 <div id="map"></div>
 <script>
 L.mapbox.accessToken = '{{ site.mapbox-api-key }}';
-var map = L.mapbox.map('map', 'kenners.li8o2424', {tileLayer: {format: 'jpg70'}});
+var map = L.mapbox.map('map', 'kenners.li8o2424');
 map.scrollWheelZoom.disable();
 // Create posts
 var geoJson = {"type":"FeatureCollection",
