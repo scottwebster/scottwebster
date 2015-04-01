@@ -17,4 +17,4 @@ The main mountaineering objective is to attempt Khan Tengri – widely considere
 For now though, the R.R.S. Ernest Shackleton is here and tomorrow we’ll be leaving Rothera and heading north up the Antarctic Peninsula, across the Drake Passage and back to civilisation in the Falkland Islands!
 
 
-[Scott and Mairi](/photos/from-antarctica-to-mongolia/fam_1.jpg "Scott and Mairi")
+![Scott and Mairi](/photos/from-antarctica-to-mongolia/fam_1.jpg "Scott and Mairi")
