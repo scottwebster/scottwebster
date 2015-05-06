@@ -2,7 +2,7 @@
 layout: post
 title: "Your title here"
 date: YYYY-MM-DD HH:MM
-category: blog # or 'antarctica' or 'overland-to-mongolia'
+category: blog # or 'antarctica' or 'overland-mountaineering'
 location: "0,0" # Longitude then latitude in dd.dddd format. + for North/East, - for South/West. Delete entirely for post to not appear on map.
 ---
 

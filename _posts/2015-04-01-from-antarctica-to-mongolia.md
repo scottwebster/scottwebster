@@ -2,7 +2,7 @@
 layout: post
 title: "From Antarctica to Mongolia"
 date: 2015-04-01 15:45
-categories: overland-to-mongolia
+categories: overland-mountaineering
 location: "-3.1889, 55.9531"
 ---
 

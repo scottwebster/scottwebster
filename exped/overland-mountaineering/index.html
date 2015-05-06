@@ -29,7 +29,7 @@ hero_background: /img/hero/sighing-peak.jpg
 <!-- Begin hack for map -->
 </div></div>
 
-{% assign map_posts = site.categories.overland-to-mongolia %}
+{% assign map_posts = site.categories.overland-mountaineering %}
 {% include map.html %}
 
 <div class="row">
@@ -38,7 +38,7 @@ hero_background: /img/hero/sighing-peak.jpg
 
 <div class="row">
   <div class="medium-8 columns">
-    {% for post in site.categories.overland-to-mongolia limit:10 %}
+    {% for post in site.categories.overland-mountaineering limit:10 %}
     <article id="{{post.id}}">
       <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
        <p class="subdue"> <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M%z" }}">{{ post.date | date: "%-d %B %Y" }}</time></p>
@@ -58,7 +58,7 @@ hero_background: /img/hero/sighing-peak.jpg
     <p class="subdue hide-for-small"><strong>Mairi Fenton</strong> studied Marine and Freshwater Biology at the University of Glasgow before joining the British Antarctic Survey. She has spent a total of 3 years in Antarctica as a marine biologist – a job that includes diving (under the ice in winter) and small boat sampling. She loves travelling and has spent time living and working abroad as well as exploring places including Borneo, Nepal, Greenland and New Zealand. An outdoors enthusiast - she is as at home in the mountains as the sea!</p>
     <h4>Previously</h4>
     <ul class="side-nav">
-      {% for post in site.categories.overland-to-mongolia %}
+      {% for post in site.categories.overland-mountaineering %}
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>

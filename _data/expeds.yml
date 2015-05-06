@@ -7,8 +7,8 @@
   permalink: /exped/:collection/:name/
   excerpt:  Scott has spent 3 years working for the British Antarctic Survey (BAS) as a field guide, including two Antarctic winters. He was responsible for a number of scientific projects, from geology work in the Ellsworth Mountains to radar work on the continental ice shelves.
   description: Scott has spent 3 years working for the British Antarctic Survey (BAS) as a field guide, including two Antarctic winters. During this time Scott was responsible for the logistics and safety of a number of different scientific projects, ranging from geology work in the Ellsworth Mountains to radar work on the continental ice shelves. In Scott’s second season with BAS he was appointed as Lead Field Guide and was responsible for a team of three others.  In addition to these roles, Scott managed the search and rescue capabilities and mountaineering training program run out of Rothera Research Station.
-- name: overland-to-mongolia
-  title: Overland to Mongolia
+- name: overland-mountaineering
+  title: Overland Mountaineering
   weight: 1
   image: /img/exped/mongol.jpg
   image-2x: /img/exped/mongol-2x.jpg
