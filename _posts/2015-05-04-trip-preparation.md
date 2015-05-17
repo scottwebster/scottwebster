@@ -7,7 +7,7 @@ location:
 ---
 It’s been a month since we arrived back in the UK and we’ve been working hard preparing for our overland mountaineering trip.  We always knew it would be a hard task to plan a trip of this magnitude in such a short space of time, but over the last four weeks it feels like it has been a full time job for both of us.
 
-**Car**
+**Car - Toyota Land Cruiser Colorado**
 
 The two main tasks on our return from Antarctica were sorting out a vehicle and the necessary visas.  
 
