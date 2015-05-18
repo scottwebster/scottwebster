@@ -33,11 +33,11 @@ hero_background: /img/hero/mongol-map.jpg
 {% include map.html %}
 
 <div class="row">
-  <div class="medium-offset-2 medium-8 columns">
+  <div class="medium-offset-1 medium-10 columns">
 <!-- End hack for map -->
 
 <div class="row">
-  <div class="medium-8 columns">
+  <div class="large-9 columns">
     {% for post in site.categories.overland-mountaineering limit:10 %}
     <article id="{{post.id}}">
       <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -48,7 +48,7 @@ hero_background: /img/hero/mongol-map.jpg
     </article>
     {% endfor %}
   </div>
-  <div class="medium-4 columns">
+  <div class="large-3 columns">
     <img class="circle-image img-center cth hide-for-small" src="{{ "/img/exped/mongol.jpg" | prepend: site.baseurl }}" srcset="{{ "/img/exped/mongol-2x.jpg" | prepend: site.baseurl }} 2x" alt="Small map of intended route">
     <p class="subdue hide-for-small">Scott and his girlfriend Mairi are undertaking an overland mountaineering journey from Scotland to Mongolia, with several mountaineering objectives along the way, including attempting to climb Khan Tengri (7010m), one of the most beautiful mountains in the world.</p>
     <h4 class="hide-for-small">Team</h4>

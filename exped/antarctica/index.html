@@ -4,7 +4,7 @@ title: Antarctica
 hero_background: /img/hero/exped.jpg
 ---
 <div class="row">
-  <div class="medium-8 columns">
+  <div class="large-9 columns">
     {% for post in site.categories.antarctica limit:10 %}
     <article id="{{post.id}}">
       <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -15,7 +15,7 @@ hero_background: /img/hero/exped.jpg
     </article>
     {% endfor %}
   </div>
-  <div class="medium-4 columns">
+  <div class="large-3 columns">
     <img class="circle-image img-center cth hide-for-small" src="{{ "/img/exped/antarctica.jpg" | prepend: site.baseurl }}" srcset="{{ "/img/exped/antarctica-2x.jpg" | prepend: site.baseurl }} 2x" alt="Photo of Marble Hills, Antarctica">
     <p class="subdue hide-for-small">Scott has spent 3 years working for the British Antarctic Survey (BAS) as a field guide, including two Antarctic winters. He was responsible for a number of scientific projects, from geology work in the Ellsworth Mountains to radar work on the continental ice shelves.</p>
     <h4>Previously</h4>
