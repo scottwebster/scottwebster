@@ -3,6 +3,7 @@ layout: post
 title: "Trip Preparation"
 date: 2015-05-17 19:00
 category: overland-mountaineering
+location:
 ---
 It’s been a month since we arrived back in the UK and we’ve been working hard preparing for our overland mountaineering trip.  We always knew it would be a hard task to plan a trip of this magnitude in such a short space of time, but over the last four weeks it feels like it has been a full time job for both of us.
 
