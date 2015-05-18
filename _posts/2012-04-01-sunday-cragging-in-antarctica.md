@@ -13,7 +13,7 @@ On base at Rothera we make a point of having a slightly more formal dinner every
 
 Several of the group had never ice climbed before so it was certainly a fairly stiff introduction but everyone did amazingly well. Being glacier ice it is very different to water ice and also being on the coast it makes it slightly unique. There was layer of poor cruddy ice on the surface but underneath was really good ice for climbing.
 
-![I even managed to have a quick play myself!](/photos/blogger-posts/ice2.jpg)
+![I even managed to have a quick play myself!](/photos/blogger-posts/ice2a.jpg)
 
 ![im nearing the top](/photos/blogger-posts/ice4.jpg)
 
