@@ -1,0 +1,8 @@
+---
+layout: post
+title: Skiing at sea level!
+date: '2012-09-08T13:31:00.002-07:00'
+categories: antarctica
+---
+
+It's relatively rare to be able to ski at sea level, there must only be a handful of places in the world where it is possible. That's one of my favourite things about the skiing on the Antarctic peninsula; the views of ice bergs as you carve your way down a slope!This afternoon I took Tim Jackson over the back of Reptile ridge to ski a gully line which I had skied once before about a year ago. I remember it being a really nice line, not overly steep but great fun!We walked along the ridge to the corniced start of the gully and as with so many gullys before we knew it we were at the bottom! The surface was fairly firm with a light dusting of soft powder sitting on top of it, it felt super fast so we had to reign it in a bit to avoid losing control but it was awesome!This was probably the steepest slope I've skied with my Dynafit Baltoro touring skis to date so it was interesting to say the least! The skis are phenomenal for almost all conditions. They do flap a bit and struggle to hold an edge on hard icy sections but they are not really designed for this sort of terrain. Anyway more on the skis another time!![Tim on the upper section of the gully](/photos/blogger-posts/DSC03627.jpg)![Great ski! Similar to Alladin's Couloir in the N.Corries of the Cairngorms!](/photos/blogger-posts/DSC03675.JPG)![Me fighting the hard pack in my light-weight touring skis](/photos/blogger-posts/DSC03676.JPG)![Tim making light work of the lower section](/photos/blogger-posts/DSC03659.jpg)

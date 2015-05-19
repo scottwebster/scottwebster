@@ -35,7 +35,7 @@ We are both now friends of the outdoor clothing brand Mountain Equipment.  As su
 
 ![More jackets!](/photos/trip-preparation/tp-purple.jpg)
 
-**Lyon Equipment and Mountain House**
+##### Lyon Equipment and Mountain House #####
 
 We are very grateful for additional support from Lyon Equipment and Mountain House freeze-dried meals.
 
