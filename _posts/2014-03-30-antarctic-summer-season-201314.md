@@ -29,7 +29,7 @@ Another job that all BAS field assistants will undertake at some point during th
 
 ##### Recreation at Rothera #####
 
-![](/photos/blogger-posts/DSC07284.jpg)
+![A photo](/photos/blogger-posts/DSC07284.jpg)
 
 ![Ski mountaineering on Christmas day](/photos/blogger-posts/DSC07420.jpg)
 

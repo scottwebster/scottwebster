@@ -38,8 +38,8 @@ The views back down towards Rothera were sublime, and gave us a great perspectiv
 
 ![The view to the East with Rothera on the right hand side](/photos/blogger-posts/DSC09154.jpg)
 
-![](/photos/blogger-posts/DSC09149.jpg)
+![A photo](/photos/blogger-posts/DSC09149.jpg)
 
-![](/photos/blogger-posts/DSC09221.jpg)
+![A photo](/photos/blogger-posts/DSC09221.jpg)
 
 A fantastic end to the winter and a very memorable summit!

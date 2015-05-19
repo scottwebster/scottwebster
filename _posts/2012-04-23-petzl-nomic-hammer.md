@@ -9,8 +9,8 @@ I had a go at making a hammer for my Petzl Nomic ice axes today... the guy that 
 
 Sorry the photos are blurry but you can get the idea!
 
-![](/photos/blogger-posts/IMG_3897.JPG)
+![A photo](/photos/blogger-posts/IMG_3897.JPG)
 
-![](/photos/blogger-posts/IMG_3898.JPG)
+![A photo](/photos/blogger-posts/IMG_3898.JPG)
 
-![](/photos/blogger-posts/IMG_3901.JPG)
+![A photo](/photos/blogger-posts/IMG_3901.JPG)

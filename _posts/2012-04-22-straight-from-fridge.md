@@ -9,11 +9,11 @@ The forecast for today was very poor and we were expecting strong winds and lots
 
 Not much else to write but a few photos of the day.
 
-![](/photos/blogger-posts/IMG_3851.jpg)
+![A photo](/photos/blogger-posts/IMG_3851.jpg)
 
-![](/photos/blogger-posts/IMG_3862.jpg)
+![A photo](/photos/blogger-posts/IMG_3862.jpg)
 
-![](/photos/blogger-posts/IMG_3855.jpg)
+![A photo](/photos/blogger-posts/IMG_3855.jpg)
 
 ![Rosey on pitch 1, just past the crux](/photos/blogger-posts/IMG_3853.jpg)
 
