@@ -208,7 +208,7 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // We use these to control header font styles
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
-$header-font-family: "PT Sans", "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$header-font-family: "PT Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: 700;
 // $header-font-style: normal;
 // $header-font-color: $jet;
