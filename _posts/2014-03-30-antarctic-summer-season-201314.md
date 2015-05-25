@@ -33,8 +33,6 @@ Another job that all BAS field assistants will undertake at some point during th
 
 ![Ski mountaineering on Christmas day](/photos/blogger-posts/DSC07420.jpg)
 
-![Mountaineering on Leonie Island](/photos/blogger-posts/_DSC0400.jpg)
-
 ![An evening skiing in Stork Bowl](/photos/blogger-posts/DSC07716.jpg)
 
 ![Fresh turns!](/photos/blogger-posts/DSC07760.jpg)
