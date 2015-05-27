@@ -1,0 +1,28 @@
+---
+layout: exped
+title: Alaska
+hero_background: /img/hero/alaska.jpg
+---
+<div class="row">
+  <div class="large-9 columns">
+    {% for post in site.categories.alaska limit:10 %}
+    <article id="{{post.id}}">
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+       <p class="subdue"> <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M%z" }}">{{ post.date | date: "%-d %B %Y" }}</time></p>
+      <div>
+        {{ post.content }}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="large-3 columns">
+    <img class="circle-image img-center cth hide-for-small" src="{{ "/img/exped/alaska.jpg" | prepend: site.baseurl }}" srcset="{{ "/img/exped/alaska-2x.jpg" | prepend: site.baseurl }} 2x" alt="Photo of Marble Hills, Antarctica">
+    <p class="subdue hide-for-small">In 2013, Scott led a successful expedition to climb Denali, the highest peak in North America and one of the Seven Summits.</p>
+    <h4>Previously</h4>
+    <ul class="side-nav">
+      {% for post in site.categories.alaska %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
