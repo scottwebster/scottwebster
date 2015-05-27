@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nice wheels!"
-date: YYYY-MM-DD HH:MM
+date: 2015-05-27 23:00
 category: overland-mountaineering
 ---
 
