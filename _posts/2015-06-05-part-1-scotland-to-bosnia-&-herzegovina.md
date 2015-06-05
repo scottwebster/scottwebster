@@ -38,7 +38,7 @@ Sport climbing in the Bohinj area of Slovenia.
 ![Snake](/photos/part-1-scotland-to-bosnia-&-herzegovina/snake.jpg "Snake")
 Got to watch out for snakes on the holds while climbing in Slovenia!
 
-![Camp Croatia](/photos/part-1-scotland-to-bosnia-&-herzegovina/camp-croatia.jpg "Camp Croatia")
+![Camp Croatia](/photos/part-1-scotland-to-bosnia-&-herzegovina/camp-croatia-1.jpg "Camp Croatia")
 Good spot to spend our first night in Croatia!
 
 ![Plitvice NP](/photos/part-1-scotland-to-bosnia-&-herzegovina/croatia-wf-1.jpg "Plitvice NP")
