@@ -53,5 +53,5 @@ Beautiful secluded camping spot on the Adriatic Coast, Croatia.
 ![Climb Croatia](/photos/part-1-scotland-to-bosnia-&-herzegovina/climb-croatia.jpg "Climb Croatia")
 Sport climbing near Omis in Croatia.
 
-![Old Bridge Mostar](/photos/part-1-scotland-to-bosnia-&-herzegovina/mostar.jpg "The Old Bridge Mostar")
+![Old Bridge Mostar](/photos/part-1-scotland-to-bosnia-&-herzegovina/mostar-1.jpg "The Old Bridge Mostar")
 The Stunning Old Bridge in Mostar, Bosnia & Herzegovina.
