@@ -3,7 +3,7 @@ layout: post
 title: "Part one - Scotland to Bosnia & Herzegovina"
 date: 2015-06-06 18:00
 category: overland-mountaineering
-location: "+17.8080, 43.3433"
+location: "17.8080, 43.3433"
 ---
 
 We've reached the end of our first week on the road!  It's been a crazy but amazing week and it's hard to believe we still have another 18 weeks left!  We've packed a lot in to the last week and covered laods of ground.  Our route so far has taken us through England, France, Belgium, Germany, Austria, Slovenia, Italy, Croatia and Bosnia & Herzegovina.  
