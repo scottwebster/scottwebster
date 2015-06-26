@@ -39,5 +39,6 @@ Scott holds the following qualifications:
 * [Mountain Leader](http://www.mountain-training.org/walking/skills-and-awards/mountain-leader)
 * [Single Pitch Award](http://www.mountain-training.org/climbing/awards/single-pitch-award)
 * [WEMSI First Responder](http://www.wemsi-international.org/index.php/wilderness-first-responder)
+* [BASP Advanced First Aid](http://www.basp.org.uk/basp_course/ADV/)
 * [Swift Water Rescue Technician](http://www.rescue3.co.uk/srt.htm)
 * [BA Hons Management with Marketing](http://www.rgu.ac.uk/business-management-and-accounting/study-options/undergraduate/management-with-marketing)
