@@ -142,3 +142,14 @@ footer p {
    height: 500px;
 
  }
+
+ /**
+  * ARCHIVE LISTINGS
+  */
+.listing > li > time {
+  float: right;
+}
+
+.listing > li {
+  line-height: emCalc(50);
+}

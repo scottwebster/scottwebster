@@ -1,6 +1,6 @@
 ---
 layout: exped
-title: Overland Mountaineering
+title: Previously on Overland Mountaineering
 hero_background: /img/hero/mongol-map.jpg
 ---
 
@@ -9,45 +9,13 @@ hero_background: /img/hero/mongol-map.jpg
     <p class="subdue text-center"><em>Scott and his girlfriend Mairi are undertaking an overland mountaineering journey from Scotland to Central Asia.  The expedition has several mountaineering aims, including Khan Tengri (7010m), one of the most beautiful mountains in the world.</em></p>
   </div>
 </div>
-<!--Sponsors -->
-<div class="row">
-  <div class="large-12 columns">
-    <p class="subdue text-center upper"><em>Supported by</em></p>
-    <div class="row">
-      <div class="small-4 columns">
-        <img class="img-center" alt="Mountain House logo" src="{{ "/img/exped/mongol/mtn-hs-logo.png" | prepend: site.baseurl }}">
-      </div>
-      <div class="small-4 columns">
-        <img class="img-center" alt="Mountain Equipment logo" src="{{ "/img/exped/mongol/mountain-equipment-logo.svg" | prepend: site.baseurl }}">
-      </div>
-      <div class="small-4 columns">
-        <img class="img-center" alt="Lyon Equipment logo" src="{{ "/img/exped/mongol/lyon.png" | prepend: site.baseurl }}">
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Begin hack for map -->
-</div></div>
-
-{% assign map_posts = site.categories.overland-mountaineering %}
-{% include map.html %}
-
-<div class="row">
-  <div class="medium-offset-1 medium-10 columns">
-<!-- End hack for map -->
-
 <div class="row">
   <div class="large-9 columns">
-    {% for post in site.categories.overland-mountaineering limit:10 %}
-    <article id="{{post.id}}">
-      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-       <p class="subdue"> <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M%z" }}">{{ post.date | date: "%-d %B %Y" }}</time></p>
-      <div>
-        {{ post.content }}
-      </div>
-    </article>
+    <ul class="listing">
+    {% for post in site.categories.overland-mountaineering %}
+            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time datetime="{{ post.date | date: "%Y-%m-%dT%H:%M%z" }}">{{ post.date | date_to_string }}</time></li>
     {% endfor %}
-    <p class="text-center"><a href="{{ "/exped/overland-mountaineering/posts" | prepend: site.baseurl }}">Read older posts &raquo;</a></p>
+    </ul>
   </div>
   <div class="large-3 columns">
     <img class="circle-image img-center cth hide-for-small" src="{{ "/img/exped/mongol.jpg" | prepend: site.baseurl }}" srcset="{{ "/img/exped/mongol-2x.jpg" | prepend: site.baseurl }} 2x" alt="Small map of intended route">
@@ -57,11 +25,5 @@ hero_background: /img/hero/mongol-map.jpg
     <p class="subdue hide-for-small"><strong>Scott Webster</strong> is one of the UK’s youngest qualified mountaineering instructors, passing his MIA qualification aged 21. Scott has spent a total of 3 years living and working in Antarctica, during which time he has led scientific and logistic parties throughout the Antarctic Peninsula, the Ellsworth Mountains, Ronne Ice-Shelf and Pine Island Glacier. Scott has been involved in several large climbing and mountaineering expeditions in the past to Alaska, Greenland, Norway and the European Alps.</p>
     <img class="circle-image img-center cth hide-for-small" src="{{ "/img/mairi-mugshot-150.jpg" | prepend: site.baseurl }}" srcset="{{ "/img/mairi-mugshot-300.jpg" | prepend: site.baseurl }} 2x" alt="Photo of Mairi Fenton">
     <p class="subdue hide-for-small"><strong>Mairi Fenton</strong> studied Marine and Freshwater Biology at the University of Glasgow before joining the British Antarctic Survey. She has spent a total of 3 years in Antarctica as a marine biologist – a job that includes diving (under the ice in winter) and small boat sampling. She loves travelling and has spent time living and working abroad as well as exploring places including Borneo, Nepal, Greenland and New Zealand. An outdoors enthusiast - she is as at home in the mountains as the sea!</p>
-    <h4>Previously</h4>
-    <ul class="side-nav">
-      {% for post in site.categories.overland-mountaineering %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
   </div>
 </div>
