@@ -1,0 +1,130 @@
+---
+layout: post
+title: "Mountaineering in The Mongolian Altai"
+date: 2015-09-05 10:00
+category: overland-mountaineering
+location: "87.8687, 49.1479"
+---
+
+The Altai Mountains span an area of over 2000km, stretching across 4 different countries; China, Kazakhstan, Russia and Mogolia.  The second highest mountain in the range - Mount Khuiten (4374m), lies in Mongolia and was our objective for this part of the trip.
+
+The launching point for accessing the Mongolian Altai is Olgii, a small town in Western Mongolia.  From here we drove for 6 hours on some of the worst "roads" we have encountered on our journey so far.  This took us to a government run ranger station at the Tsagaan Gol entrance to the Tavan Bogd National Park where we had to present permits and arrange for a local camel herder to transport our gear the final 14km to base camp.
+
+![Name of photo](/photos/altai/altai-1.jpg "Mongolian Altai")
+Most river crossing in Mongolia involve getting wet wheels - a rare treat in the form of a sturdy bridge!
+
+![Name of photo](/photos/altai/altai-2.jpg "Mongolian Altai")
+Scoping out a river crossing further up the Tsagaan Gol!
+
+![Name of photo](/photos/altai/altai-3.jpg "Mongolian Altai")
+We crossed this river, our largest so far, only to discover we were on an island and had an even larger and fast flowing section still to tackle...we retreated and found a bridge back down the valley!
+
+![Name of photo](/photos/altai/altai-4.jpg "Mongolian Altai")
+Scenic drive en route to the Tavan Bogd NP.
+
+![Name of photo](/photos/altai/altai-5.jpg "Mongolian Altai")
+We made it - Shiweeeeet!
+
+![Name of photo](/photos/altai/altai-6.jpg "Mongolian Altai")
+Ranger station at NP entrance.
+
+![Name of photo](/photos/altai/altai-8.jpg "Mongolian Altai")
+Camel loaded up with our kit.
+
+![Name of photo](/photos/altai/altai-9.jpg "Mongolian Altai")
+Bactrian camel (2 humps!) - these can allegedly carry up to 400kg!
+
+![Name of photo](/photos/altai/altai-10.jpg "Mongolian Altai")
+Main form of transport in these parts.
+
+![Name of photo](/photos/altai/altai-11.jpg "Mongolian Altai")
+After our Tien Shan trip we swapped Malcy for a better looking model...
+
+Base camp is situated on the Northern side of the Potanin Glacier and consists of a couple of gers (Mongolian yurts).  From base camp it is a days walk up the glacier to advanced base camp where most people make their attempt on the summit of Mount Khuiten, via the North or North West ridges.  On our way up the glacier we had a good look at the lesser climbed South East ridge of Khuiten and decided that this would provide a more interesting way to the summit and enable us to do a full traverse of the mountain by then descending the North ridge and down to the advanced base camp.
+
+![Name of photo](/photos/altai/altai-12.jpg "Mongolian Altai")
+View up the Potanin Glacier from base camp.
+
+![Name of photo](/photos/altai/altai-37.jpg "Mongolian Altai")
+Base camp with Khuiten just right of centre.
+
+![Name of photo](/photos/altai/altai-39.jpg "Mongolian Altai")
+Packing our bags for the ascent.
+
+![Name of photo](/photos/altai/altai-40.jpg "Mongolian Altai")
+Impressive moulin (glacial sink hole!)
+
+We made good progress towards the start of our route and decided to start up the ridge in order to find a slightly higher camp and shorten the summit day.  We found a great spot on an icy col next to a rocky outcrop that provided perfect shelter and a comfortable nights sleep with fantastic views.
+
+![Name of photo](/photos/altai/altai-20.jpg "Mongolian Altai")
+Camp on the South East ridge of Khuiten.
+
+We were very lucky to wake up early the next morning to perfect weather and climbing conditions - hardly a breath of wind and virtually no clouds in the sky!  We left our bivy spot at 0630 and began the ascent towards the summit.  The ridge was relatively straight forward but even from the glacier floor we could see several large seracs and cornices on the summit ridge that would no doubt present a challenge between us and the summit.  These obstacles were "interesting" as expected but ultimately easily navigated.
+
+![Name of photo](/photos/altai/altai-21.jpg "Mongolian Altai")
+Alpine start on summit day!
+
+![Name of photo](/photos/altai/altai-14.jpg "Mongolian Altai")
+
+![Name of photo](/photos/altai/altai-22.jpg "Mongolian Altai")
+
+![Name of photo](/photos/altai/altai-16.jpg "Mongolian Altai")
+
+![Name of photo](/photos/altai/altai-17.jpg "Mongolian Altai")
+
+![Name of photo](/photos/altai/altai-23.jpg "Mongolian Altai")
+
+![Name of photo](/photos/altai/altai-18.jpg "Mongolian Altai")
+Reaching the summit ridge.
+
+![Name of photo](/photos/altai/altai-24.jpg "Mongolian Altai")
+
+We summited Khuiten and were rewarded with incredible views across the whole Altai range.
+
+![Name of photo](/photos/altai/altai-25.jpg "Mongolian Altai")
+Summit selfie!
+
+The descent down the North ridge crossed several large crevasses but with the firm snow conditions was relatively rapid allowing us to reap the benefits of an early start to enjoy the afternoon sun at advanced base camp!
+
+![Name of photo](/photos/altai/altai-19.jpg "Mongolian Altai")
+Descent down the North ridge.
+
+![Name of photo](/photos/altai/altai-29.jpg "Mongolian Altai")
+At advanced base camp, chilling in the sun!
+
+![Name of photo](/photos/altai/altai-26.jpg "Mongolian Altai")
+Our route up followed the left hand skyline and down the right.
+
+The following day was a bit more turbulent in terms of weather but we made an ascent of Mount Nairamdal (4180m) with it's summit marking the borders between Mongolia, Russia and China.  This provides a unique experience - hopping from one country to the next!
+
+![Name of photo](/photos/altai/altai-32.jpg "Mongolian Altai")
+No passport control as we entered China!
+
+![Name of photo](/photos/altai/altai-31.jpg "Mongolian Altai")
+Views into China.
+
+![Name of photo](/photos/altai/altai-27.jpg "Mongolian Altai")
+Impressive cloud rolling up the glacier.
+
+![Name of photo](/photos/altai/altai-28.jpg "Mongolian Altai")
+Snow leopard tracks very close to camp!
+
+For our return to the ranger station where we had left the car we opted to ride back on camels...an experience we have both vowed never to repeat!  Possibly the most uncomfortable 14km of our lives!
+
+![Name of photo](/photos/altai/altai-35.jpg "Mongolian Altai")
+Ice bouldering!
+
+![Name of photo](/photos/altai/altai-33.jpg "Mongolian Altai")
+Relaxing at base camp with wasabi crisps and coke!
+
+![Name of photo](/photos/altai/altai-38.jpg "Mongolian Altai")
+Dismantling of a ger as the season draws to a close.
+
+![Name of photo](/photos/altai/altai-41.jpg "Mongolian Altai")
+This seemed like a good idea at this point...
+
+![Name of photo](/photos/altai/altai-42.jpg "Mongolian Altai")
+Camel train.
+
+![Name of photo](/photos/altai/altai-43.jpg "Mongolian Altai")
+Traffic on the road out of the Tavan Bogd!
