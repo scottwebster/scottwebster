@@ -8,17 +8,17 @@ hero_background: /img/hero/about.jpg
 
 <img src="{{ "/img/mugshot-300.jpg" | prepend: site.baseurl }}" srcset="{{ "/img/mugshot-512.jpg" | prepend: site.baseurl }} 2x" alt="Photo of Scott Webster" width="200" class="polaroid hide-for-small">
 
-Scott Webster is a professional moutaineering instructor with extensive Alpine and Antarctic experience.
+Scott Webster Mountaineering offers professional mountaineering instruction and guiding in Scotland.  Courses are offered in all aspects of climbing and mountaineering, summer and winter.
 
-He studied Marketing at University in Aberdeen before deciding to pursue a career in the outdoors, and has worked for Glenmore Lodge – Scotland's National Outdoor Centre.
+Scott Webster Mountaineering is owned and run by me, Scott Webster.  I studied marketing at The Robert Gordon University in Aberdeen, during which time I began working part time in the outdoor industry and gaining National Governing Body (NGB) awards in mountaineering.  
 
-In addition to freelance guiding, Scott has worked all over Scotland for a variety of organisations, including No Limits Development, Skye Guides and Adventure Aberdeen.
+After graduating I began working full time as a mountaineering instructor.  I currently hold the Mountain Instructor Award (MIA) and Winter Mountain Leader (WML).  I am also working towards the Mountain Instructor Certificate (MIC - the highest qualification for mountaineering instruction in the UK).
 
-Further afield, Scott has overwintered twice in Antarctica, working for the British Antarctic Survey as a Field Guide. He has led scientific and logistic parties in some of the most remote and hostile regions of Antarctica – including the Ellsworth Mountains, Ronne Ice Shelf, Antarctic Peninsula, and Pine Island Glacier.
+In addition to working throughout the UK mountains I have spent a total of 3 years working in Antarctica for the British Antarctic Survey as a Field Guide.  During this time I have led scientific and logistics parties throughout the Antarctic Peninsula, Ellsworth Mountains, Ronne Ice-Shelf and Pine Island Glacier.
 
-Recreational mountaineering has taken Scott all over the UK, the French and Swiss Alps, Greenland, Norway, and Alaska.  In addition to his passion for climbing, Scott is a keen skier and kayaker.
+Personal expeditions have taken me to Greenland, Norway, The European Alps, Alaska, Kyrgyzstan, and Mongolia.
 
-Scott is available to run courses in all areas of mountaineering and climbing as well as leading overseas expeditions.
+I am deeply passionate about mountaineering and the outdoors.   I enjoy sharing this passion with others and look forward to passing on some of my knowledge to you in the future!
 
 <div class="panel row">
   <div class="medium-4 columns">
